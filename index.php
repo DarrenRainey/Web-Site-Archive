@@ -8,6 +8,7 @@ file_put_contents('logs/index.log', $line . PHP_EOL, FILE_APPEND);
     <title>Darren Rainey</title>
     <link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 </head>
 
 <body>
