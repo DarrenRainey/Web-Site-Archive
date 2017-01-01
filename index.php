@@ -39,6 +39,11 @@ file_put_contents('logs/index.log', $line . PHP_EOL, FILE_APPEND);
             <div id="list">
             
             <ul>
+		<li>
+                    <a href="Using-Ardunio-As-HID-Device.php">
+                        <span class="tag">[01/01/2017]</span><span>USING ARDUNIO AS HID DEVICE		</span>
+                    </a>
+                </li>
 
                 <li>
                     <a href="xbox-reverse-engineering-xbox-live.php">
