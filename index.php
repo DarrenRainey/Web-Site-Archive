@@ -8,6 +8,8 @@ file_put_contents('logs/index.log', $line . PHP_EOL, FILE_APPEND);
     <title>Darren Rainey</title>
     <link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+<meta charset="UTF-8">
 </head>
 
 <body>
@@ -31,13 +33,25 @@ file_put_contents('logs/index.log', $line . PHP_EOL, FILE_APPEND);
                                                                                                      "Y88P"  </a> 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</pre>
-            </div>
+            </div></div>
 
             <!--THE LIST -->
             
             <div id="list">
             
             <ul>
+                <li>
+                    <a href="site-upgrade-to-ssl.php">
+                        <span class="tag">[04/01/2017]</span><span>SITE WIDE UPGRADE TO SSL	</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="Using-Ardunio-As-HID-Device.php">
+                        <span class="tag">[01/01/2017]</span><span>USING ARDUNIO AS HID DEVICE		</span>
+                    </a>
+                </li>
+
 
                 <li>
                     <a href="xbox-reverse-engineering-xbox-live.php">
@@ -71,6 +85,7 @@ file_put_contents('logs/index.log', $line . PHP_EOL, FILE_APPEND);
                 </div>
 
         </div>
+</div>
 
 </body>
 </html>
