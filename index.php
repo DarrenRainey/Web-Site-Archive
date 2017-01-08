@@ -41,6 +41,12 @@ file_put_contents('logs/index.log', $line . PHP_EOL, FILE_APPEND);
             
             <ul>
                 <li>
+                    <a href="single-point-of-failure.php">
+                        <span class="tag">[08/01/2017]</span><span>SINGLE POINT OF FAILURE	</span>
+                    </a>
+                </li>
+
+                <li>
                     <a href="site-upgrade-to-ssl.php">
                         <span class="tag">[04/01/2017]</span><span>SITE WIDE UPGRADE TO SSL	</span>
                     </a>
