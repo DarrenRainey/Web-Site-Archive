@@ -5,12 +5,12 @@ file_put_contents('logs/index.log', $line . PHP_EOL, FILE_APPEND);
 ?>
 <html>
 <head>
-    <title>Darren Rainey</title>
-    <link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-<meta charset="UTF-8">
-</head>
+	<title>Darren Rainey</title>
+	<link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+	<meta charset="UTF-8">
+	<meta name="Description" content="Welcome to Darren Rainey's Website (Website Of Darren Rainey)"></head>
 
 <body>
     

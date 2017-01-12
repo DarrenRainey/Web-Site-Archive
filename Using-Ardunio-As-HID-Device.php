@@ -8,8 +8,7 @@ file_put_contents('logs/Using-Ardunio-As-HID-Device.log', $line . PHP_EOL, FILE_
     <title>Darren Rainey</title>
     <link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
-<meta name="Description" content="Since Xbox Live was release in 2001 it has grown to have more than 48 million active however there are people that want to play with their friends but don't want to pay for xbox live or they want to understand how the xbox live system functions. But one of the main reason that people like me are starting to reverse engineering the xbox live protocol is because Microsoft will and have shut down support and access to older consoles. In 2010 Microsoft annouced that they would be shutting down the xbox live servers for the original xbox. 
-So in this fourm people are discussing and working together to deconstruct the xbox protocols and create a free and open source alternative and if we can get a working version on the orginal xbox then we could gain allot of knowledge about how the system works and potentially adapt it in the future to allow other systems such as the xbox 360 or xbox one to communicate with the older systems or even play some backward compatiable games such as Halo 1/2.">
+<meta name="Description" content="HID (Human Interface Device Attacks using an ardunio nano or arduino leonardo">
 </head>
 
 <body>
