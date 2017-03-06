@@ -41,6 +41,12 @@ file_put_contents('logs/index.log', $line . PHP_EOL, FILE_APPEND);
             
             <ul>
                 <li>
+                    <a href="the-problem-with-email.php">
+                        <span class="tag">[06/03/2017]</span><span>THE PROBLEM WITH EMAIL	</span>
+                    </a>
+                </li>
+
+                <li>
                     <a href="single-point-of-failure.php">
                         <span class="tag">[08/01/2017]</span><span>SINGLE POINT OF FAILURE	</span>
                     </a>
