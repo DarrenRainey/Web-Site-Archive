@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <?php
 $line = date('d-m-Y H:i:s') . " - $_SERVER[REMOTE_ADDR] 	$_SERVER[HTTP_USER_AGENT]";
-file_put_contents('logs/index.log', $line . PHP_EOL, FILE_APPEND);
+file_put_contents('logs/do-you-wannacry.log', $line . PHP_EOL, FILE_APPEND);
 ?>
 <html>
 <head>
-	<title>Darren Rainey</title>
-	<link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
-	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-	<meta charset="UTF-8">
-	<meta name="Description" content="Welcome to Darren Rainey's Website (Website Of Darren Rainey)"></head>
+    <title>Darren Rainey</title>
+    <link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+<meta name="Description" content="This website (https://darrenraineys.co.uk) has now been upgrade to SSl to allow a more secure connection between users and the server"></head>
 
 <body>
     
@@ -33,61 +31,18 @@ file_put_contents('logs/index.log', $line . PHP_EOL, FILE_APPEND);
                                                                                                      "Y88P"  </a> 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</pre>
-            </div></div>
+            </div>
 
             <!--THE LIST -->
             
             <div id="list">
-                        <ul>
-                <li>
-                    <a href="do-you-wannacry.php">
-                        <span class="tag">[20/05/2017]</span><span>DO YOU WANNACRY ?</span>
-                    </a>
-                </li>
-
-            <ul>
-                <li>
-                    <a href="Reverse-Shell-To-Meterperter.php">
-                        <span class="tag">[14/05/2017]</span><span>REVERSE SHELL TO METERPERTER	</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="the-problem-with-email.php">
-                        <span class="tag">[06/03/2017]</span><span>THE PROBLEM WITH EMAIL	</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="single-point-of-failure.php">
-                        <span class="tag">[08/01/2017]</span><span>SINGLE POINT OF FAILURE	</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="site-upgrade-to-ssl.php">
-                        <span class="tag">[04/01/2017]</span><span>SITE WIDE UPGRADE TO SSL	</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="Using-Ardunio-As-HID-Device.php">
-                        <span class="tag">[01/01/2017]</span><span>USING ARDUNIO AS HID DEVICE		</span>
-                    </a>
-                </li>
-
-
-                <li>
-                    <a href="xbox-reverse-engineering-xbox-live.php">
-                        <span class="tag">[31/12/2016]</span><span>REVERSE ENGINEEERING XBOX LIVE [PART 1]		</span>
-                    </a>
-                </li>
-
-              
-
-            </ul>
-            </div>
             
+            <ul>
+		<center><b><u>Do You Wannacry							[20/05/2017]</u></b></center>
+		<br>
+
+Wannacry or Wannacrypt is the newest and fastest spreading ransomware mostly know for its attacks on various goverment systems including the Nation Health Service (NHS) in the United Kingdom but what people are forgetting about is how Wannacry is spreading so fast. Wannacry uses a exploit developed by the National Inteligance Agency (NSA) in the USA that exploits a vurnablity in Microsofts SMB/File sharing protocol and allows remote code execute (RCE) <b><u>without any user interaction.</b></u><br><p> This is how Wannacry spread so fast because when the NSA exploit code was leaked online by the Shadow Brokers group many groups and tools started looking throught the code dump for anything of intrest and in the case the developers of Wannacry found the exploit for the SMB exploit and added it to there malware. However this isn't where the story ends because not long after the exploits were leaked online by the Shadow Brokers Microsoft started issuing patches and updates to prevent the attacks from working a few months before the release of Wannacry but not everyone updates or can update there system. Which is how Wannacry spread it found machines running SMB and tryed to using the exploit once it got into a system it would start scanning for more vulnerable machines on the local network and the internet which is how it spread so fast especially as the program didn't need any user interaction if it had the SMB vulnerability add on more traditional infection methods such as email phising and dead drops and you can see how Wannacry spread so quickly. </div>
+    </br></p>        
             <!--FOOTER SECTION -->
 
             <div id="footer">
@@ -104,12 +59,13 @@ file_put_contents('logs/index.log', $line . PHP_EOL, FILE_APPEND);
                 <span class="footdogs">  &#215; </span>
                 <a target="_blank" href="https://github.com/DarrenRainey">GITHUB</a>
 
+
 		<span class="footdogs">  &#215; </span>
                 <a target="_blank" href="http://darrenraineys.co.uk/sitemap.php">SITEMAP</a>
+
                 </div>
 
         </div>
-</div>
 
 </body>
 </html>
