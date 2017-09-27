@@ -39,6 +39,12 @@ file_put_contents('logs/index.log', $line . PHP_EOL, FILE_APPEND);
             
             <div id="list">
                         <ul>
+		<li>
+                    <a href="intel-amt-exploit.php">
+                        <span class="tag">[27/09/2017]</span><span>INTEL AMT EXPLOIT EXPLAINED - CVE-2017-5689</span>
+                    </a>
+                </li>
+
                 <li>
                     <a href="do-you-wannacry.php">
                         <span class="tag">[20/05/2017]</span><span>DO YOU WANNACRY ?</span>
