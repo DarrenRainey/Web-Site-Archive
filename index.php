@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<?php
-$line = date('d-m-Y H:i:s') . " - $_SERVER[REMOTE_ADDR] 	$_SERVER[HTTP_USER_AGENT]";
-file_put_contents('logs/index.log', $line . PHP_EOL, FILE_APPEND);
-?>
 <html>
 <head>
 	<title>Darren Rainey</title>
@@ -39,6 +35,13 @@ file_put_contents('logs/index.log', $line . PHP_EOL, FILE_APPEND);
             
             <div id="list">
                         <ul>
+
+		 <li>
+                    <a href="the-problem-with-vpns.php">
+                        <span class="tag">[08/05/2018]</span><span>THE PROBLEM WITH VPN'S</span>
+                    </a>
+                </li>
+		
 		<li>
                     <a href="intel-amt-exploit.php">
                         <span class="tag">[27/09/2017]</span><span>INTEL AMT EXPLOIT EXPLAINED - CVE-2017-5689</span>
