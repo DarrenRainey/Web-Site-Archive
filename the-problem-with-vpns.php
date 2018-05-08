@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Darren Rainey | The Problem With VPN's</title>
+    <link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+<meta name="As I am increase seeing more and more people talking about and advertising VPN's (mainly on YouTube) I though today I would talk about them.
+A VPN or virtual private network is what most people claim to be a "secure" way to keep your information private on the internet today I am going to discuss the advantages, disadvantages and potential problems when using a VPN.">
+</head>
+
+<body>
+    
+    <div id="page">
+        <div id="content">
+
+        <!--HEADER SECTION -->
+        <div id="header"><pre>
+<a class="darren rainey" href="http://darrenraineys.co.uk">
+8888888b.                                                 8888888b.           d8b                            
+888  "Y88b                                                888   Y88b          Y8P                            
+888    888                                                888    888                                         
+888    888  8888b.  888d888 888d888 .d88b.  88888b.       888   d88P  8888b.  888 88888b.   .d88b.  888  888 
+888    888     "88b 888P"   888P"  d8P  Y8b 888 "88b      8888888P"      "88b 888 888 "88b d8P  Y8b 888  888 
+888    888 .d888888 888     888    88888888 888  888      888 T88b   .d888888 888 888  888 88888888 888  888 
+888  .d88P 888  888 888     888    Y8b.     888  888      888  T88b  888  888 888 888  888 Y8b.     Y88b 888 
+8888888P"  "Y888888 888     888     "Y8888  888  888      888   T88b "Y888888 888 888  888  "Y8888   "Y88888 
+                                                                                                         888 
+                                                                                                    Y8b d88P 
+                                                                                                     "Y88P"  </a> 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</pre>
+            </div>
+
+            <!--THE LIST -->
+            
+            <div id="list">
+            
+            <ul>
+		<center><b><u>The Problem With VPN's					[08/05/2018]</u></b></center>
+
+<p>As I am increase seeing more and more people talking about and advertising VPN's (mainly on YouTube) I though today I would talk about them.
+
+A VPN or virtual private network is what most people claim to be a "secure" way to keep your information private on the internet today I am going to discuss the advantages, disadvantages and potential problems when using a VPN. <br><br></p>
+
+<p>Firstly what is a VPN - A VPN or virtual private network is a piece of software that secures your data by encrypting it and routing it through a remote server this can prevent attackers on the local network from spying on your network traffic. Note the local network we will come back to this later.</p>
+
+<p>A VPN is essential moves the attack vector from the local network to a remote server so this prevents anyone on your current network monitoring you however as all of the traffic is being routed through a remote server if the server is compromised either by an attacker or monitored by the VPN/Server hosting company them selves this can present a problem as know the server/VPN provider can track and spy on your private data.</p>
+
+<p>This is especially concerning for mobile users as this means you can be attacked from anywhere regardless of what network your on as all of your data is funneled to the remote server with could be potentially controlled by an attacker or untrusted source.</p>
+
+<p>An attacker or malicious provider could potentially inject malicious JavaScript code which with the right exploit could potentially allow them full control of your device and a foothold into your network.</p>
+
+However on thing to note is that most sites are increasingly using SSL/TLS which adds another layer of encryption to your information but don't rely on one technology to save you as attacks on the SSL protocol have already been seen with the likes of SSLStrip and SSLStrip2 and SSL only ensures the safe transfer of your information it does not protect from human error such as entering your information into a fake phishing site.
+
+And finally as with many protocols and programs a VPN has a trade of between security and speed so using a VPN may be slower compared to your standard internet connection as there is allot of encryption, decrypting, transmitting and receiving to be done.
+<br><br>
+<b><u>So in summary:</b></u>
+		<ul>
+                </li>1: A VPN can stop attackers and spy's on your local network from monitoring you</li>
+                <li>2: Make sure that your VPN provider is trustworthy</li>
+                <li>3: If you care about your privacy don't just rely on a VPN use services such as TOR, i2p or Freenet</li>
+		</ul>
+<br>
+ </ul>
+            </div>
+            
+            <!--FOOTER SECTION -->
+
+            <div id="footer">
+                <pre>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</pre>
+                <div class="filter">
+                <a href="index.php">HOME</a>
+
+                <span class="footdogs">  &#215; </span>
+                <a href="http://pitchinbox.com/widget/widget.swf?id=2876191853">DONATE</a>
+                
+                <span class="footdogs">  &#215; </span>
+                <a target="_blank" href="https://youtube.com/DarrenRainey">YOUTUBE</a>
+
+                <span class="footdogs">  &#215; </span>
+                <a target="_blank" href="https://github.com/DarrenRainey">GITHUB</a>
+
+
+		<span class="footdogs">  &#215; </span>
+                <a target="_blank" href="sitemap.php">SITEMAP</a>
+
+                </div>
+
+        </div>
+
+</body>
+</html>
