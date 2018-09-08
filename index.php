@@ -7,7 +7,6 @@
 	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 	<meta charset="UTF-8">
 	<meta name="Description" content="Welcome to Darren Rainey's Website (Website Of Darren Rainey)"></head>
-
 <body>
     
     <div id="page">
@@ -35,16 +34,27 @@
             
             <div id="list">
                         <ul>
+                <li>
+                    <a href="best-linux-distributions-for-arm-devices.php">
+                        <span class="tag">[08/09/2018]</span><span>BEST LINUX DISTRIBUTIONS FOR ARM DEVICES	</span>
+                    </a>
+                </li>
 
-		 <li>
+                <li>
                     <a href="the-problem-with-vpns.php">
                         <span class="tag">[08/05/2018]</span><span>THE PROBLEM WITH VPN'S</span>
                     </a>
                 </li>
-		
-		<li>
+
+                <li>
                     <a href="intel-amt-exploit.php">
                         <span class="tag">[27/09/2017]</span><span>INTEL AMT EXPLOIT EXPLAINED - CVE-2017-5689</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="cyptocurrencys-and-the-future-of-money.php">
+                        <span class="tag">[06/07/2017]</span><span>CRYPTOCURRENCY'S AND THE FUTURE OF MONEY</span>
                     </a>
                 </li>
 
@@ -102,7 +112,7 @@
             <div id="footer">
                 <pre>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</pre>
                 <div class="filter">
-                <a href="http://darrenraineys.co.uk">HOME</a>
+                <a href="index.php">HOME</a>
 
                 <span class="footdogs">  &#215; </span>
                 <a href="http://pitchinbox.com/widget/widget.swf?id=2876191853">DONATE</a>
@@ -114,7 +124,7 @@
                 <a target="_blank" href="https://github.com/DarrenRainey">GITHUB</a>
 
 		<span class="footdogs">  &#215; </span>
-                <a target="_blank" href="http://darrenraineys.co.uk/sitemap.php">SITEMAP</a>
+                <a target="_blank" href="sitemap.php">SITEMAP</a>
                 </div>
 
         </div>
