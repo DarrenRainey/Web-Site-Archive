@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<?php
-$line = date('d-m-Y H:i:s') . " - $_SERVER[REMOTE_ADDR] 	$_SERVER[HTTP_USER_AGENT]";
-file_put_contents('logs/Using-Ardunio-As-HID-Device.log', $line . PHP_EOL, FILE_APPEND);
-?>
 <html>
 <head>
     <title>Darren Rainey</title>
@@ -44,7 +40,7 @@ file_put_contents('logs/Using-Ardunio-As-HID-Device.log', $line . PHP_EOL, FILE_
 <br>
 <p>HID or Human Interface Devices are devices that allow the user to interace with a system such as a PC. Common example of HID devices are Keyboards and Mice but there are other input devices such as webcams or even the Microsoft Kinect. These devices are ussaly required for the user to interact and use there machine which is why HID attacks are almost impossiable to prevent as the computer <b><u>DOES NOT</b></u> know the difference between a user typing at 5 characters per second and a malicious device typing at 1000 characters per second.<br>
 </p><p>So now the Ardunio. an Ardunio is a open source microcontroller platform that has near infinite possibilities such as making LEDs blink,A small logic controller, A webserver or even a HID controller which is what we are going to be using.<br>
-There are embedded devices similar to the Ardunio that are delicated to HID attacks such as the <a href="http://usbrubberducky.com/#!index.md">USB RUBBER DUCKY</a>. This device uses a Teensy microcontroller which is similar to the Ardunio but the main difference is cost with the USB Rubber ducky price at nearly <b><u>£40!!</u></b> it can be very expensive if you want more than one or if you lose one compare the £40 to just <b><u>£2</b></u> or <b><u>£3</b></u> for an Ardunio.<br><br>
+There are embedded devices similar to the Ardunio that are delicated to HID attacks such as the <a href="http://usbrubberducky.com/#!index.md">USB RUBBER DUCKY</a>. This device uses a Teensy microcontroller which is similar to the Ardunio but the main difference is cost with the USB Rubber ducky price at nearly <b><u>Â£40!!</u></b> it can be very expensive if you want more than one or if you lose one compare the Â£40 to just <b><u>Â£2</b></u> or <b><u>Â£3</b></u> for an Ardunio.<br><br>
 <u>Setup</u><br>
 There are a view things you need to get started:<br>
 An Ardunio with a 32u4 or 16u4 Chip <br>
@@ -72,7 +68,7 @@ TAB - Send Tab Key
 <br>
 <br>
 <u><b>Converting To Ardunio Code</u></b>
-<br>Ok so now we have our Ducky Script we can just copy and paste that into Dckunio.js click compile and copy the output code into the Ardunio IDE, make sure the correct port is selected and click upload and as soon as it uploads it will run your code and now you have your own HID Attack tool or USB Rubber Ducky for £2-£3. Now whenever you plug your Ardunio into a PC or other system it will beginning running your code.
+<br>Ok so now we have our Ducky Script we can just copy and paste that into Dckunio.js click compile and copy the output code into the Ardunio IDE, make sure the correct port is selected and click upload and as soon as it uploads it will run your code and now you have your own HID Attack tool or USB Rubber Ducky for Â£2-Â£3. Now whenever you plug your Ardunio into a PC or other system it will beginning running your code.
 
 <u></b>Conclusion</b></u>
 <br>There is so much more that you can do with the Ardunio if you know how to write in C or Ardunio code you can even make your Ardunio move the mouse and click on things as well as act like a keybord and type. There are some limitations such as memory but by adding a Micro SD card reader you can solve this issue.
@@ -86,9 +82,6 @@ TAB - Send Tab Key
                 <pre>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</pre>
                 <div class="filter">
                 <a href="http://darrenraineys.co.uk">HOME</a>
-
-                <span class="footdogs">  &#215; </span>
-                <a href="http://pitchinbox.com/widget/widget.swf?id=2876191853">DONATE</a>
                 
                 <span class="footdogs">  &#215; </span>
                 <a target="_blank" href="https://youtube.com/DarrenRainey">YOUTUBE</a>
