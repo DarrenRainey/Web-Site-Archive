@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<?php
-$line = date('d-m-Y H:i:s') . " - $_SERVER[REMOTE_ADDR] 	$_SERVER[HTTP_USER_AGENT]";
-file_put_contents('logs/	xbox-reverse-engineering-xbox-live.log', $line . PHP_EOL, FILE_APPEND);
-?>
 <html>
 <head>
     <title>Darren Rainey</title>
@@ -56,9 +52,6 @@ So in this fourm people are discussing and working together to deconstruct the x
                 <pre>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</pre>
                 <div class="filter">
                 <a href="http://darrenraineys.co.uk">HOME</a>
-
-                <span class="footdogs">  &#215; </span>
-                <a href="http://pitchinbox.com/widget/widget.swf?id=2876191853">DONATE</a>
                 
                 <span class="footdogs">  &#215; </span>
                 <a target="_blank" href="https://youtube.com/DarrenRainey">YOUTUBE</a>
